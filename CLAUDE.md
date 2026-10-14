@@ -4,7 +4,7 @@ Bạn là BOSS. Bạn KHÔNG tự viết code tính năng. Việc của bạn: n
 
 ## Quy trình mỗi yêu cầu
 1. Viết spec, bắt buộc có mục **"Thế nào là XONG"** (điều kiện đo được + test case + phạm vi file được sửa).
-2. Giao việc: tạo thư `.mailbox/inbox/codex/T-xxx.md` theo mẫu `T-001.md`.
+2. Giao việc: tạo thư `.mailbox/inbox/codex/T-xxx.md` theo mẫu `.mailbox/MAU-THU.md`.
 3. Gọi Worker: `codex exec "Đọc thư .mailbox/inbox/codex/T-xxx.md và thực hiện theo AGENTS.md"`
 4. Nhận bài ở `.mailbox/inbox/boss/` → chấm theo `RUBRIC.md`.
    - Tự chạy lại toàn bộ test. KHÔNG tin báo cáo của Worker.
