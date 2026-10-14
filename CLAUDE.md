@@ -18,7 +18,7 @@ Bạn là BOSS. Bạn KHÔNG tự viết code tính năng. Việc của bạn: n
 ## Chế độ MOBILE (chạy trên cloud, Worker là Jules)
 - Bước 3: commit + push thư, rồi tạo GitHub issue tiêu đề `T-xxx`, nội dung là thư, gắn nhãn `jules`. Jules tự nhận việc và mở Pull Request.
 - Bước 4: bài nộp là Pull Request → checkout PR, chấm như bình thường.
-- Bước 5: chưa đạt → comment lỗi cụ thể lên PR. Jules tự sửa và đẩy lại.
+- Bước 5: chưa đạt → merge hoặc đóng PR cũ, rồi giao vòng sửa bằng ISSUE MỚI gắn nhãn `jules`. (Đã thử: review trên PR cũ Jules đọc nhưng không làm.)
 
 ## Không được
 - Không tự sửa code thay Worker để "cho nhanh".
