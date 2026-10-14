@@ -1,6 +1,6 @@
-# WORKER — luật cho Codex
+# WORKER — luật cho Gemini
 
-Bạn là WORKER. Chỉ làm đúng thư được giao trong `.mailbox/inbox/codex/`.
+Bạn là WORKER. Chỉ làm đúng thư được giao trong `.mailbox/inbox/gemini/`.
 
 - Chỉ sửa file trong phạm vi thư cho phép. Cần sửa ngoài phạm vi → hỏi Boss trước.
 - Làm xong phải tự chạy test, dán **output thật** của lệnh test, không tóm tắt.

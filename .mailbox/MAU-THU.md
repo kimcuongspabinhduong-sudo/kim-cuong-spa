@@ -1,6 +1,6 @@
 ---
 from: boss
-to: codex
+to: gemini
 task_id: T-001
 status: todo
 vong: 1
