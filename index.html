@@ -45,6 +45,43 @@
             color: #666666;
             margin-bottom: 24px;
         }
+        .price-section {
+            margin-bottom: 24px;
+        }
+        .price-title {
+            color: #8b5cf6;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 12px;
+        }
+        .price-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #f5f3ff;
+            font-size: 14px;
+        }
+        .price-table th, .price-table td {
+            padding: 10px 8px;
+            text-align: left;
+        }
+        .price-table th {
+            background-color: #8b5cf6;
+            color: #ffffff;
+            font-weight: 600;
+        }
+        .price-table td:nth-child(2), .price-table th:nth-child(2) {
+            text-align: center;
+        }
+        .price-table td:nth-child(3), .price-table th:nth-child(3) {
+            text-align: right;
+            font-weight: 600;
+            color: #4c1d95;
+        }
+        .price-table tr:not(:last-child) td {
+            border-bottom: 1px solid #e9d5ff;
+        }
         .address {
             background-color: #f5f3ff;
             border-radius: 8px;
@@ -77,6 +114,50 @@
         <div class="logo-icon">💎</div>
         <h1>Kim Cương Spa</h1>
         <p class="tagline">Nơi thư giãn và chăm sóc sức khỏe cho bạn.</p>
+        <div class="price-section">
+            <h2 class="price-title">Bảng giá dịch vụ</h2>
+            <table class="price-table">
+                <thead>
+                    <tr>
+                        <th>Dịch vụ</th>
+                        <th>Thời gian</th>
+                        <th>Giá</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Massage Aroma</td>
+                        <td>75 phút</td>
+                        <td>390.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Massage Thái</td>
+                        <td>60 phút</td>
+                        <td>450.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Trị liệu thảo dược</td>
+                        <td>60 phút</td>
+                        <td>490.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Massage Cổ vai gáy</td>
+                        <td>60 phút</td>
+                        <td>350.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Massage Foot</td>
+                        <td>60 phút</td>
+                        <td>390.000đ</td>
+                    </tr>
+                    <tr>
+                        <td>Gội dưỡng sinh</td>
+                        <td>60 phút</td>
+                        <td>190.000đ</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         <p class="address">📍 441 Đại lộ Bình Dương, Phú Cường, Thủ Dầu Một, Bình Dương</p>
         <a href="tel:0933864891" class="btn-hotline">📞 0933 864 891</a>
     </div>
